@@ -1,0 +1,2 @@
+# MagicGame
+create game
