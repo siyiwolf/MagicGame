@@ -18,6 +18,12 @@ public class getBallThread implements Runnable{
         while(!isFinish()){
             System.out.println(Thread.currentThread().getName()+" get the "+getBallIndex());
             ballNum++;
+            try{
+                Thread.sleep(5);
+            }
+            catch(InterruptedException e){
+                e.printStackTrace();
+            }
         }
     }
 }
