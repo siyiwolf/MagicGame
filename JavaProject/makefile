@@ -2,7 +2,7 @@
 #Author    : siyiwolf(siyiwolf@foxmail.com)
 #Creat Time: 20160821
 #Update    :
-#version   : V0.01
+#version   : V0.02
 
 
 #Set sysmbol meaning
