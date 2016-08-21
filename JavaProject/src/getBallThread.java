@@ -5,7 +5,7 @@ public class getBallThread implements Runnable{
     private static int ballIndex = 0;
     private int ballNum = 0;
     
-    public boolent isFinish(){
+    public boolean isFinish(){
         return ballIndex == boxSize;
     }
     public int getBallIndex(){
